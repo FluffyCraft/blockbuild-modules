@@ -5,6 +5,7 @@ Use `blockb install <module> [version]` to install modules. Use `blockb` for mor
 Add a directory to /modules and it can be installed with `blockb install <foldername>`. The directory must contain a `manifest.json` that looks something like this:
 ```json
 {
+    "author": "Your Name",
     "latest": "1.0.0"
 }
 ```
